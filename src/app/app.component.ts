@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularproject1';
+
+  name = "mark Smith";
+
+  getMessage()
+  {
+    return "hi all";
+  }
+
+   isDisabled = false;
+   imagepath = "C:/Users/Alchemy/Pictures/Screenshots/"
+   imageName = "my img"
+ 
 }
