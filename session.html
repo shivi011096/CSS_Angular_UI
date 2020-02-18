@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        if(sessionStorage.counter !=null)
+        {
+            sessionStorage.counter = Number(sessionStorage.counter)+1;
+
+        }
+
+        else
+        {
+            sessionStorage.counter=4;
+
+        }
+
+        document.write(sessionStorage.counter);
+    </script>
+</body>
+</html>
